@@ -1,6 +1,6 @@
 # install the dependencies
 ```bash
-sudo apt install build-essential cmake vim git python3.10-dev
+sudo apt install build-essential zsh cmake vim git python3.10-dev
 ```
 
 # configure vim
