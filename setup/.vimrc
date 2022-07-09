@@ -18,6 +18,7 @@ autocmd filetype cpp nnoremap <F6> :w <bar> !g++ -ulimit -Wall -Wno-unused-resul
 syntax on
 colorscheme zenburn
 set nu
+set visualbell
 set clipboard=unnamedplus
 set mouse=a
 set tabstop=2
