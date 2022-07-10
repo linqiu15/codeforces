@@ -20,3 +20,10 @@ int unique_digits( long long int n )
 }
 ```
 from [how do i check if a number has only unique digits?](https://stackoverflow.com/questions/59577683/how-do-i-check-if-a-number-has-only-unique-digits), the idea is nested loops with flag variable, unlike the ones with array ``int array[10]={0}``.
+
+### initial c++ array with the same default value except 0
+```c++
+#include <algorithm>
+int arr[n];
+std::fill_n (arr, n, val);
+```
