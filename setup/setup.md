@@ -12,7 +12,7 @@ ln -sf /path/to/template/ ~/.vim/template/
 # install YoucompleteMe
 ```bash
 # under the YoucompleteMe directory
-/usr/bin/python3 /home/ql/.vim/bundle/YouCompleteMe/third_party/ycmd/build.py --verbose
+/usr/bin/python3 /home/ql/.vim/bundle/YouCompleteMe/third_party/ycmd/build.py --clangd-completer --verbose
 ```
 
 # misc

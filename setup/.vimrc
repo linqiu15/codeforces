@@ -10,6 +10,7 @@ Plugin 'morhetz/gruvbox'
 Plugin 'chrisbra/vim-commentary'
 Plugin 'tomasr/molokai'
 Plugin 'jnurmine/Zenburn'
+Plugin 'rhysd/vim-clang-format'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -32,3 +33,5 @@ set backspace=indent,eol,start
 set t_Co=256
 set background=dark
 autocmd BufNewFile  *.cpp 0r ~/.vim/template/template.cpp 
+" let g:clang_format#auto_format=1
+autocmd FileType cpp ClangFormatAutoEnable
