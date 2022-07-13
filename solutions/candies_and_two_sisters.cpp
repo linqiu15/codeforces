@@ -1,22 +1,21 @@
 #include <bits/stdc++.h>
 
-#define ll long long int
-#define ld long double
-#define endl "\n"
-using namespace std;
+#include <map>
+#include <set>
+#include <string>
 
-void solve() {
-  // solution starts here!
-}
+#define ll long long int
+using namespace std;
 
 int main(void) {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
-  int n;
-  cin >> n;
-  while (n--) {
-    solve();
-  }
+  ll n, t;
+  cin >> t;
+  while (cin >> n) {
+    cout << (n % 2 == 0 ? n / 2 - 1 : n / 2) << endl;
+  };
 
   return 0;
 }
+
